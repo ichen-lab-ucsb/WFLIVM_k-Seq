@@ -3,17 +3,16 @@
 This folder contains the script to process count files output from
 [EasyDIVER](https://github.com/ichen-lab-ucsb/EasyDIVER) and prepare for k-seq fitting.
 
+[k-seq](https://github.com/ichen-lab-ucsb/k-seq) package is required. Please follow the package instruction for installation.
+
 ### Count data preprocessing
 
 `count-data-preprocessing.py` script contains the data processing pipeline to parse count files,
 filter sequences, quantify sequence amount and calculate reacted fraction for *k*-Seq fitting.
-'k-seq' package is required for the script.
 
 Use 'count-data-preprocessing.py -h' for more details.
 
 ### *k*-Seq fitting
-We used [k-seq](https://github.com/ichen-lab-ucsb/k-seq) to fit the preprocessed data to kinetic model with
-bootstrapping. Please follow the package instruction for installation.
 
 The fitting was performed using the script 'k-seq-fitting.py' in the k-seq package.
 An example on fitting BFO data:
