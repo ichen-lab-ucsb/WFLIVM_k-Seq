@@ -5,4 +5,4 @@ This repository contains the Python scripts for *k*-Seq fitting and generating t
 **Content**
 
 - k-seq: script for count data processing pipeline for *k*-Seq fitting
-- graphics: scripts to generate the graphics in the paper
+- graphics: scripts to generate the figures in the paper
